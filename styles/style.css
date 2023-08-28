@@ -185,3 +185,8 @@ margin-bottom: 10px;
     font-size: 16px;
     font-weight: 700;
 }
+.social-part{
+    display: flex;
+  
+    justify-content: space-evenly;
+}
