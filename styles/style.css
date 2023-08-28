@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+}
+
+.banner {
+
+    background-color: rgba(229, 84, 115, 0.1);
+    width: 100%;
+    height: 80vh;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.heading {
+    font-size: 70px;
+
+}
+
+.banner-description {
+    margin-left: 240px;
+}
+
+.heading-description {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+}
+
+.banner-img {
+    width: 460px;
+    /* width: 635px;
+    height: 800px; */
+    margin-right: 240px;
+    padding-top: 28px;
+}
+
+.btn {
+    padding: 15px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    color: azure;
+    font-weight: 700;
+    border: none;
+
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature-flowers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: 45px; */
+}
+
+.box1 {
+    width: 300px;
+    height: 340px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-right: 20px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.box2 {
+    width: 300px;
+    height: 340px;
+    background-color: rgba(5, 151, 160, 0.15);
+    margin-right: 24px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.box3 {
+    width: 300px;
+    height: 340px;
+    background-color: rgba(71, 125, 17, 0.15);
+    ;
+    margin-right: 24px;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.box-img1 {
+    width: 220px;
+    /* padding-top: 30px; */
+    padding: 36px 0px 0px 38px;
+}
+
+.box-img2 {
+    width: 220px;
+    padding: 90px 0px 0px 40px;
+
+
+}
+
+.box-img3 {
+    width: 220px;
+    padding: 10px 0px 0px 43px;
+}
+
+.caption {
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.third-part {
+    margin-top: 50px;
+
+}
+
+.middle-part {
+    width: 1440px;
+    height: 200px;
+    background-color: rgba(39, 39, 39, 0.05);
+
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.middle-caption {
+    text-align: center;
+
+}
+
+.discount-main {
+    width: 100%;
+    height: 420px;
+    background:rgba(229, 84, 115, 0.05);
+}
+.discount{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.extra-part{
+    margin-bottom: 10px;
+}
+.bonus{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    width: 300px;
+    height: 460px;
+    /* border: 1px solid black; */
+    padding: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.card-img{
+    width: 100%;
+    
+}
+
+.card-title{
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.card-description{
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+
+.card-price{
+    font-size: 16px;
+    font-weight: 700;
+}
